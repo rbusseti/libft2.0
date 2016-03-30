@@ -6,7 +6,7 @@
 #    By: rbusseti <rbusseti@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2013/11/21 16:59:30 by rbusseti          #+#    #+#              #
-#    Updated: 2016/03/22 16:49:14 by rbusseti         ###   ########.fr        #
+#    Updated: 2016/03/24 15:55:09 by rbusseti         ###   ########.fr        #
 #                                                                              #
 #******************************************************************************#
 
@@ -69,6 +69,9 @@ SRC = ft_memset.c \
 	ft_list_push_back.c \
 	ft_create_elem.c \
 	ft_delete_link.c \
+	ft_swap_link.c \
+	ft_bubble_sort_list.c \
+	ft_split_list.c \
 	get_next_line.c
 
 OBJ = $(SRC:.c=.o)
